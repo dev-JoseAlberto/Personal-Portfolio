@@ -1,14 +1,22 @@
 import { Home } from '../pages/Home';
 import { About } from '../pages/About';
+import { Portfolio } from '../pages/Portfolio';
 import { Contact } from '../pages/Contact';
-import {  Routes, Route } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
+import { Routes, Route, useLocation} from 'react-router-dom';
+
 
 export function  MostImportantRoutes () {
+  let location = useLocation();
+
     return (
-      <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/about' element={<About />}/>
-        <Route path='/contact' element={<Contact />}/>
-      </Routes>
+      <AnimatePresence initial={false}>
+        <Routes location={location} key={location.pathname}>
+          <Route path='/' element={<Home />}/>
+          <Route path='/about' element={<About />}/>
+          <Route path='/portfolio' element={<Portfolio />}/>
+          <Route path='/contact' element={<Contact />}/>
+        </Routes>
+      </AnimatePresence>
     );
 }

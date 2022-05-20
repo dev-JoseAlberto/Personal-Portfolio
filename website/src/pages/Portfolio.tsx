@@ -1,23 +1,23 @@
 import { motion } from "framer-motion";
 
 
-export function Contact (){
+export function Portfolio (){
     return (
-        <motion.div 
+        <motion.div
         initial={{ width: 0 }}
         animate={{ width: "100%" }}
         exit={{ opacity: 0 , transition:{ease: "easeOut", duration: 0.5} }}
         >
             <header>
-            <h1>Contact</h1>
+                <h1>Portfolio</h1>
             </header>
             <section>
-                <header>
-                    <h2>Pricing Plans</h2>
+            <header>
+                    <h2>I just wanna share my work about personal portfolio website</h2>
                 </header>
                 <article>
                     <header>
-                        <h3>Enterprise Solutions</h3>
+                        <h3>Project 1</h3>
                     </header>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.

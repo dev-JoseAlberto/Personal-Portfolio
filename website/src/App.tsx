@@ -1,13 +1,18 @@
 import { Navbar } from './components/navbar/Navbar';
-import { BrowserRouter as Router} from 'react-router-dom';
+import { Footer } from './components/footer/Footer';
 import { MostImportantRoutes } from './routers/routes';
+import { BrowserRouter as Router, useLocation} from 'react-router-dom';
 
 function App() {
+  
   return (
-    <Router>
-      <Navbar />
-      <MostImportantRoutes />
-    </Router>
+    <div className='App'>
+      <Router>
+        <Navbar />
+        <MostImportantRoutes />
+        <Footer/>
+      </Router>
+    </div>
   )
 }
 
