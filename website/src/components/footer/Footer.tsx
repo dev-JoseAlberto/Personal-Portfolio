@@ -4,7 +4,7 @@ export function Footer () {
     return (
         <div>
             <footer>
-                <p><small>&copy; José Alberto 2022 | All rights reserved</small></p>
+                <p>&copy; 2022 José Alberto | All Rights Reserved</p>
             </footer>
          </div>
     );

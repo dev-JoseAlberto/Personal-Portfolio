@@ -1,50 +1,73 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-@layer base {
-
-    .navbar {
-        @apply flex justify-start items-center h-20  text-white bg-[#1a552d];
-    }
-
-    .menu-bars {
-        @apply ml-8 text-xl bg-none;
-    }
-
-    .nav-menu {
-        @apply flex  w-[250px] h-[100vh] justify-center fixed top-0 left-[-100%] duration-[850ms];
-    }
-
-    .nav-menu {
-        @apply active:left-0 active:duration-[350ms];
-    }
-
-    .nav-text {
-        @apply flex justify-start items-center no-underline pt-4 pr-4 pl-8 pb-8 h-[60px];
-    }
-
-    .nav-text a {
-        @apply flex w-[95%] h-[100%] no-underline text-lg items-center  pt-0 pr-4 rounded  text-white;
-    }
-
-    .nav-text a {
-        @apply px-4 h-10 hover:bg-[#3cc367] transition-colors;
-    }
-
-    .nav-menu-items {
-        @apply w-fit ;
-    }
-
-    .nav-toggle {
-        @apply flex w-full h-16 justify-start items-center;
-    }
-
-    span {
-        @apply ml-4;
-    }
-
-
-
-}
+.navbar {
+    background-color: #1a552d;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+  
+  .nav-menu {
+    background-color: #288144;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+  
+  .nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  
+  .nav-text a:hover {
+    background-color: #ff8080;
+    transition-property: color;
+  }
+  
+  .nav-menu-items {
+    width: 100%;
+  }
+  
+  .navbar-toggle {
+    background-color: #288144;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  span {
+    margin-left: 16px;
+  }

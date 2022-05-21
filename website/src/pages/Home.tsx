@@ -9,6 +9,7 @@
         exit={{ opacity: 0 , transition:{ease: "easeOut", duration: 0.5} }}
         >
             <header> 
+                <img className="max-w-full h-auto mt-4 rounded-full" src="src/assets/image01.jpeg" alt="Profile" />
                 <h1 className="text-4xl font-black">I'm José </h1>
             </header>
             <section>
@@ -20,12 +21,11 @@
                         <h3 className="text-xl font-black">I will create a website that can give value to your business.</h3>
                     </header>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris augue ex, placerat id accumsan et, maximus nec magna. 
-                        Nunc nunc mauris, lacinia id ornare sed, congue in turpis. Phasellus nec eros sapien. 
-                        Fusce venenatis congue bibendum. Donec placerat malesuada dui non feugiat. Nulla a molestie est, vel tristique massa. 
-                        Nulla porta mollis dictum. Suspendisse lacus elit, vestibulum id rutrum ut, posuere non libero. Curabitur vitae dolor porta, pharetra nunc non, venenatis purus. 
-                        Pellentesque congue urna vel congue pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam viverra lobortis ante. Praesent eu efficitur dolor. Etiam vehicula vel ipsum ullamcorper eleifend.
+                    I've always loved data analysis, statistics and programming skills, so I suppose it's natural that I became Data Enthusiasts.
+                    I use data science combines multiple fields, including mathematics, statistics, scientific 
+                    methods and data analysis, to extract value from data. Those who practice data science are called 
+                    data scientists, and they combine a range of skills to analyze data collected.
+                    I like to approach problems in a more agile way by having the know-how from both the data and the web development side.
                     </p>
                 </article>
             </section>

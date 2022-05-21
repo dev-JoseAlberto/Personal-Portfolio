@@ -10,31 +10,31 @@ import '../navbar/Navbar.css';
 
 export const Sidebar = [
     {
-        tittle:'Home',
+        title:'Home',
         path: '/',
-        icons:<AiOutlineHome />,
+        icon:<AiOutlineHome />,
         cName : 'nav-text'
     },
 
     {
-        tittle:'About',
+        title:'About',
         path: '/about',
-        icons:<ImUser />,
+        icon:<ImUser />,
         cName : 'nav-text'
     },
 
     
     {
-        tittle:'Portfolio',
+        title:'Portfolio',
         path: '/portfolio',
-        icons:<MdWorkOutline />,
+        icon:<MdWorkOutline />,
         cName : 'nav-text'
     },
 
     {
-        tittle:'Contact',
+        title:'Contact',
         path: '/contact',
-        icons:<IoIosContact />,
+        icon:<IoIosContact />,
         cName : 'nav-text'
     },
 ]

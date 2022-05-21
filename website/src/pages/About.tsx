@@ -10,7 +10,7 @@ export function About () {
         >
             <header>
                 <h1>About me</h1>
-                <img className="image02" src="src/assets/image02.svg" alt="Photo by Kari Shea on Unsplash" />
+                <img className="image02" src="src/assets/image02.jpg" alt="Google Macbook Pro" />
             </header>
             <section>
                 <header>
