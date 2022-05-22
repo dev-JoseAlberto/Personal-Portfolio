@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import { motion } from "framer-motion";
 
 
@@ -20,7 +19,7 @@ export function Portfolio (){
                 <article>
                     <header>
                         <h3>Binary Classification Task</h3>
-                        <img src="src/assets/image03.png" alt="Photo by Christopher Gower on Unsplash" />
+                        <img className="w-[800px] h-1/2" src="src/assets/image03.png" alt="Photo by Christopher Gower on Unsplash" />
                     </header>
                     <p>
                         Logistic regression as a foundation for classification, by taking our probability outputs and applying 
@@ -33,7 +32,7 @@ export function Portfolio (){
                         There are many reasons to assess the probability of a state of a categorical variable, and a common application 
                         is classification predicting the class of a new data point.Many methods are available, but regression has the advantage 
                         of being relatively simple to perform and interpret. First a training set is used to develop a prediction equation, and 
-                        then the predicted membership probability is thresholded to predict the class membership for new observations, with the point classified to the most probable class.
+                        then the predicted membership probability is threshold to predict the class membership for new observations, with the point classified to the most probable class.
                     </p>
                 </article>
             </section>
@@ -41,7 +40,7 @@ export function Portfolio (){
             <article >
                 <header>
                     <h3>Aircraft Maintenance</h3>
-                    <img src="src/assets/image04.jpg" alt="GE Aviation" />
+                    <img className="max-w-full w-[800px] h-1/2" src="src/assets/image04.jpg" alt="GE Aviation" />
                 </header>
                 <p>
                     GE Aviation is a world-leading provider of jet and turboprop engines, as well as integrated systems for commercial, 
@@ -61,7 +60,7 @@ export function Portfolio (){
             <article>
                 <header>
                     <h3>Customer Segmentation</h3>
-                    <img src="/src/assets/image05.jpeg" />
+                    <img className="max-w-full w-[800px] h-1/2" src="/src/assets/image05.jpeg" />
                 </header>
                 <p>
                     Customer segmentation is practice of diving a customer base into groups of individuals that similar in specific ways relevant marketing.
@@ -69,6 +68,24 @@ export function Portfolio (){
                     In this project : <a href="https://github.com/dev-JoseAlberto/Customer-Segmentation" target="blank">Customer-Segmentation</a>.
                     Marketing segmentation is strategy that involves dividing a broad target market into subsets of consumers who have common needs, demand and characteristics.
                     The developing a marketing strategy that targets the individuals in your chosen segment.
+                </p>
+            </article>
+            </section>
+            <section>
+            <article>
+                <header>
+                    <h3>Heart Rate Predict</h3>
+                    <img className="max-w-full w-[800px] h-1/2" src="/src/assets/image06.jpg" />
+                </header>
+                <p>
+                    Heart disease describes a range of conditions that affect your heart.
+                    Prediction of cardiovascular disease is regarded as one of the most important subjects in the section of clinical data analysis.
+                    The amount of data in the healthcare industry is huge. Data mining turns the large collection of raw healthcare data into information 
+                    that can help to make informed decisions and predictions. 
+                </p>
+                <p>
+                    In this project : <a href="https://github.com/dev-JoseAlberto/Linear-Methods-for-Regression" target="blank">Linear-Methods-for-Regression</a>.
+                    Machine learning proves to be effective in assisting in making decisions and predictions from the large quantity of data produced by the healthcare industry.
                 </p>
             </article>
             </section>

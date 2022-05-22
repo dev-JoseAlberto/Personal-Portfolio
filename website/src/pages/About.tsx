@@ -19,12 +19,9 @@ export function About () {
                 <article>
                     <h3>The new standard in website design</h3>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris augue ex, placerat id accumsan et, maximus nec magna. 
-                    Nunc nunc mauris, lacinia id ornare sed, congue in turpis. Phasellus nec eros sapien. 
-                    Fusce venenatis congue bibendum. Donec placerat malesuada dui non feugiat. Nulla a molestie est, vel tristique massa. 
-                    Nulla porta mollis dictum. Suspendisse lacus elit, vestibulum id rutrum ut, posuere non libero. Curabitur vitae dolor porta, pharetra nunc non, venenatis purus. 
-                    Pellentesque congue urna vel congue pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam viverra lobortis ante. Praesent eu efficitur dolor. Etiam vehicula vel ipsum ullamcorper eleifend.
+                        Experience a seamless design process from concept to production with responsive CSS powered by smooth drag and drop. 
+                        My goal is to build responsive websites with full breakpoint control.
+                        It is the web developer’s job to take this design and develop it into a live, fully functional website. A frontend developer takes the visual design as provided by the web designer and builds it using coding languages such as HTML, CSS and JavaScript. A backend developer builds the more advanced functionality of the site, such as the checkout function on an e-commerce site.
                     </p>
                 </article>
             </section>

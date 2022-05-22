@@ -1,15 +1,39 @@
 footer {
-    height: 100px;
+    height: auto;
     grid-column-start: 1;
     grid-column-end: 3;
     width: 100%;
     background: #1a552d;
     justify-content: center;
     align-items: center;
-    display: flex;
-    padding: 1rem 2rem 3rem;
+    padding: 1rem;
 }
 
 footer p {
     font-size: 19px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+footer ul li  {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #309c52;
+}
+
+footer li  a {
+    text-decoration:none;
+    list-style: none;
+}
+
+footer ul li a:hover {
+    color: #3cc367;
+    cursor: pointer;
 }
