@@ -40,7 +40,7 @@ export function Portfolio (){
             <article >
                 <header>
                     <h3>Aircraft Maintenance</h3>
-                    <img className="max-w-full w-[800px] h-1/2" src="src/assets/image04.jpg" alt="GE Aviation" />
+                    <img className="max-w-full w-[800px]  h-1/2" src="src/assets/image04.jpg" alt="GE Aviation" />
                 </header>
                 <p>
                     GE Aviation is a world-leading provider of jet and turboprop engines, as well as integrated systems for commercial, 
